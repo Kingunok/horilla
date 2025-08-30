@@ -1,7 +1,7 @@
 {
   "builds": [
     {
-      "src": "backend/wsgi.py",
+      "src": "horilla/wsgi.py",
       "use": "@vercel/python"
     },
     {
@@ -19,7 +19,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "backend/wsgi.py"
+      "dest": "horilla/wsgi.py"
     }
   ]
 }
